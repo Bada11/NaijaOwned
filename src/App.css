@@ -1,0 +1,66 @@
+body {
+  font-family: "poppins", sans-serif;
+}
+/* GetStarted */
+.top {
+  display: flex;
+  background-color: #05380c;
+  margin: 0 auto;
+  padding: 7px;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+p {
+  letter-spacing: 2px;
+  font-weight: 400;
+  color: #fff;
+}
+.btn-1 {
+  padding: 7px 15px;
+  background-color: inherit;
+  border: solid 2px #fff;
+  border-radius: 7px;
+  color: #fff;
+}
+
+/* Header */
+.hd-top {
+  display: flex;
+  background-color: #fff;
+  justify-content: space-between;
+  width: 100vw;
+}
+.hd-top p {
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.hd-1 {
+  margin-left: 200px;
+}
+
+.hd-2 {
+  display: flex;
+  gap: 70px;
+}
+
+.hd-3 {
+  margin-right: 200px;
+}
+
+.hero {
+  background: url("./assets/hero-img.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero h3 {
+  color: white;
+  padding: 10px;
+}
+.hero h1 {
+  color: white;
+}
