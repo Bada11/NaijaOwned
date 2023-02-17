@@ -10,6 +10,8 @@ body {
   align-items: center;
   justify-content: center;
   gap: 1rem;
+  position: sticky;
+  top: 0;
 }
 p {
   letter-spacing: 2px;
@@ -29,7 +31,8 @@ p {
   display: flex;
   background-color: #fff;
   justify-content: space-between;
-  width: 100vw;
+  position: sticky;
+  top: 64px;
 }
 .hd-top p {
   color: black;
@@ -40,6 +43,7 @@ p {
 
 .hd-1 {
   margin-left: 200px;
+  display: flex;
 }
 
 .hd-2 {
@@ -47,20 +51,228 @@ p {
   gap: 70px;
 }
 
+.hd-3 p {
+  margin: 0;
+}
 .hd-3 {
-  margin-right: 200px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  justify-content: center;
 }
 
 .hero {
   background: url("./assets/hero-img.png");
   background-size: cover;
   background-repeat: no-repeat;
+  height: 500px;
+}
+
+.hero-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero h3 {
   color: white;
-  padding: 10px;
+  width: 703px;
+  height: 42px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  margin-top: 0;
 }
+
 .hero h1 {
+  margin-top: 160px;
+  margin-bottom: 0;
   color: white;
+  width: 703px;
+  height: 69px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.hero-search {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 10px;
+  background-color: #fff;
+  width: 1012px;
+  height: 116px;
+}
+
+.btn-search {
+  background: #05380c;
+  border: 1px solid #05380c;
+  border-radius: 5px;
+  width: 139px;
+  height: 52px;
+  color: #fff;
+}
+
+.business-search {
+  width: 519px;
+  height: 52px;
+  background: #ffffff;
+  border: 1px solid #05380c;
+  border-radius: 5px;
+}
+
+.selection {
+  width: 173px;
+  height: 52px;
+  background: #ffffff;
+  border: 1px solid #05380c;
+  border-radius: 5px;
+}
+
+/* Categories */
+
+.categories {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.cat-top {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 105px;
+  margin-right: 105px;
+}
+
+.cat-top p {
+  color: black;
+}
+.flex-cat {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.item-cat {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  justify-content: center;
+  width: 246px;
+  height: 187px;
+  background: rgba(217, 217, 217, 0.01);
+  border: 1px solid #e2e2e2;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+.flex-cat p {
+  color: #000;
+  width: 217px;
+  height: 60px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  padding: 7px;
+}
+.flex-cat span {
+  margin-left: 100px;
+  margin-top: 42px;
+  display: block;
+}
+
+/* Discover */
+
+.discover {
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 350px;
+  margin-bottom: 30px;
+}
+
+.flex-dis {
+  display: flex;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.item-dis {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 284px;
+  height: 187px;
+  border: 1px solid #e2e2e2;
+  border-radius: 10px;
+  padding: 25px 0;
+}
+.item-dis h5 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000;
+  text-align: center;
+  margin: 0;
+}
+.item-dis p {
+  color: #000;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+/* BUSINESSES */
+
+.flex-bus {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  width: 100%;
+}
+.item-bus {
+  width: 388px;
+  height: 334px;
+  border: 1px solid #e2e2e2;
+  border-radius: 3px;
+  margin-right: 20px;
+  padding: 20px;
+}
+.item-bus:first-child{
+  margin-left: 80px;
+}
+.item-bus button {
+width: 234px;
+height: 39px;
+border: 1px solid #02133E;
+border-radius: 10px;
+background: transparent;
+color:#02133E;
+}
+.flex-item {
+  display: flex;
+  align-items: center;
+}
+.flex-item p {
+  color: #000;
+}
+.flex-item span {
+  display: block;
+  margin-right: 25px;
+}
+
+.flex-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:20px;
 }
